@@ -1,5 +1,6 @@
 'use client';
 
+import { User } from "@prisma/client";
 import Image from "next/image";
 
 interface AvatarProps {
@@ -27,6 +28,7 @@ const Avatar: React.FC<AvatarProps> =
                         src={user?.image || '/images/placeholder.jpg'}
                         alt="Avatar"
                         fill
+                        sizes="100%"
                     />
                 </div>
                 <span className="
