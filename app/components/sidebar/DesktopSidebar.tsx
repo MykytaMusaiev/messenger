@@ -17,7 +17,6 @@ const DesktopSidebar: React.FC<DesktopSidebarProps> =
         const routes = useRoutes()
         const [isOpen, setIsopen] = useState(false);
 
-        console.log(currentUser)
         return (
             <div className="
             hidden
