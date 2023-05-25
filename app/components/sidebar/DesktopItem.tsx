@@ -6,7 +6,7 @@ interface DesktopItemProps {
     label: string;
     icon: any;
     href: string;
-    onClick?: boolean;
+    onClick?: () => void;
     active?: boolean;
 
 }
